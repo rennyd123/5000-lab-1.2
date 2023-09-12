@@ -1,0 +1,108 @@
+$$---
+title: "simple_quarto_website"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+<head>
+    <style>
+        p {
+            font-weight: normal;
+            font-size: 12px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
+<h1>Table of Contents</h1>
+<ul>
+    <li><a href="#welcome">Welcome to my Quarto Website</a></li>
+    <li><a href="#columned-text">Columned Text</a></li>
+    <li><a href="#unordered-list">Unordered List</a></li>
+    <li><a href="#markdown-table">Markdown Table</a></li>
+    <li><a href="#math-equations">Inline and Non-inline Math Equations</a></li>
+    <li><a href="#footnote-quoted-text">Footnote and Quoted Text Example</a></li>
+    <li><a href="#images">Images</a></li>
+    <li><a href="#video">Video</a></li>
+    <li><a href="#mermaid-diagram">Mermaid Diagram</a></li>
+    <li><a href="#references">References</a></li>
+
+</ul>
+
+
+<h2 id="welcome" style="color:purple"> Welcome to my Quarto Website</h2>
+<p>This is my first time using Quarto but so far I am having fun and feeling like I am learning a lot!</p>
+
+<table>
+    <tr>
+        <td>
+            <h2 id="columned text" style="color:orange"> Some placeholder text is below</h2> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </td>
+        <td>
+            <h2 style="color:green"> Some more placeholder text is below</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </td>
+    </tr>
+</table>
+
+<h3 id="unordered-list" style="color:lightblue"> Here is an unordered list of some things I've learnt how to do:</h3>
+   <ul style="font-size:12px; font-weight: normal">
+        <li>Learning how to set a general rule for a set of text
+        <li>Create an unordered and ordered list
+        <li>Change the colour and weight of text
+        <li>How to end elements of lists
+    </ul>
+
+<h2 id="markdown-table" style="color:darkblue">Below is a placeholder markdown table</h2>
+<div class="markdown-table" data-markdown>
+| My Degree | Graduating Year |
+| -------- | -------- |
+| Undergraduate: Chinese | 2024 |
+| Graduate: DSAN | 2025 |
+</div>
+
+
+<h2 id="math-equations" style="color=green"> Here are my math equations, both inline and non-inline</h2>
+<h3>Here is my inline math equation using LaTex</h3>
+<p>This is an example of an inline math equation: $a^2 + b^2 = c^2$</p>
+<p>Below is an example of a centered, non-inline math equation</p> 
+$$a^2 + b^2 = c^2$$
+
+<h2 id="footnote-quoted-text">Footnote & Quoted Text Example</h2>
+<p> Here is a quote from an article I read for another class, History of China</p>
+>The traditional demarcation between northern and southern China is the Qinling mountain range, equivalent to the Continental Divide in North America.[^1]
+
+<h2 id="images">Here are pictures of two of my textbooks</h2>
+
+<td>
+    <img src="images/history.jpg" width="100" height="150">
+    <img src="images/linguistics.jpg" width="100" height="150">
+</td>
+
+<h2 id="video">Here is a lyric video of my favourite song</h2>
+<p>The song is called "She Calls Me Back" by Noah Kahan</p>
+{{< video https://www.youtube.com/watch?v=Y76SBWfU2Bw width=400 height="250" >}}
+
+<h2 id="mermaid-diagram">Here is a mermaid diagram</h2>
+<div id="myMermaidDiagram"></div>
+
+```{mermaid}
+flowchart LR
+  A[Are you hungry?] --> B(No)
+  A[Are you hungry?] --> C(Yes)
+  B --> D[Don't eat anything!]
+  C --> E[Eat something!]
+```
+
+<h2 id="references">Here is my reference section</h2>
+<p> Here is a sentence with a citation [@nevill_assessing_1997]</p>
+
+[^1]: Wright, David Curtis. The history of China. Bloomsbury Publishing USA, 2020. Page 4.

@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nTable of Contents\n",
+    "section": "",
+    "text": "$$— title: “simple_quarto_website”\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nThis is my first time using Quarto but so far I am having fun and feeling like I am learning a lot!\nThis is an example of an inline math equation: \\(a^2 + b^2 = c^2\\)\nBelow is an example of a centered, non-inline math equation\n\\[a^2 + b^2 = c^2\\]\nHere is a quote from an article I read for another class, History of China\nThe song is called “She Calls Me Back” by Noah Kahan\nflowchart LR\n  A[Are you hungry?] --&gt; B(No)\n  A[Are you hungry?] --&gt; C(Yes)\n  B --&gt; D[Don't eat anything!]\n  C --&gt; E[Eat something!]\nHere is a sentence with a citation (Nevill and Atkinson 1997)"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "\nTable of Contents\n",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWright, David Curtis. The history of China. Bloomsbury Publishing USA, 2020. Page 4.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#activities-i-enjoy",
+    "href": "slides/slides.html#activities-i-enjoy",
+    "title": "My Presentation",
+    "section": "Activities I Enjoy",
+    "text": "Activities I Enjoy\n\nReading\nExtending my Duolingo streak\nGoing to farmers’ markets"
+  },
+  {
+    "objectID": "slides/slides.html#photos-of-my-textbooks",
+    "href": "slides/slides.html#photos-of-my-textbooks",
+    "title": "My Presentation",
+    "section": "Photos of my Textbooks",
+    "text": "Photos of my Textbooks\nHere a photos of my Chinese Linguistics and Chinese History textbooks:"
+  },
+  {
+    "objectID": "slides/slides.html#plot-slide",
+    "href": "slides/slides.html#plot-slide",
+    "title": "My Presentation",
+    "section": "Plot Slide",
+    "text": "Plot Slide"
+  },
+  {
+    "objectID": "slides/slides.html#reference",
+    "href": "slides/slides.html#reference",
+    "title": "My Presentation",
+    "section": "Reference",
+    "text": "Reference\nHere is a reference from an article I selected.\n\nHere is a sentence with a citation (Nevill and Atkinson 1997)\n\n\n\n\n\n\n\nNevill, Alan M, and Greg Atkinson. 1997. “Assessing Agreement Between Measurements Recorded on a Ratio Scale in Sports Medicine and Sports Science.” British Association of Sport and Excercise Medicine 31 (4): 314–18. https://bjsm.bmj.com/content/31/4/314.short."
+  }
+]
